@@ -1,0 +1,10 @@
+4 Give the name and length of the smallest gene in the genome.
+TRDD1 with lenght 7
+5 Give the name of the gene with the most transcripts? Give the number of transcripts of this gene?
+U6 with 1329 transcripts
+6 Give the name of the chromosome with the second most genes that tell something about cancer. What is the number of exons of this chromosome? (2 queries)
+chromosome 9 has the second most genes that tell something about cancer. it has 45679 exons.
+Give the number of rows from the exon table and do the same for the exon_transcript table (2 queries). Explain why there is a difference in number of rows.
+1) exon = 642590 rows and exon_transcript = 1178393 rows.
+there can be multiple transcripts on the same exon.
+
