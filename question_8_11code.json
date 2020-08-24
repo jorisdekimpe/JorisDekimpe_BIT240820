@@ -1,0 +1,12 @@
+
+db.examen.find({
+    "method_of_admission": "GEL;DENTAL"
+}, {
+    "drug": 1})
+
+db.examen.find({
+        "percentage_of_side_effects": {
+            "$gte": 12}}).count()
+
+db.getCollection('examen').aggregate([ {$group: {_id: "$company", avg_side_effects: {$avg: "$percentage_of_side_effects"}}},
+            {$match: {avg_side_effects: {$gt: 10}}}, {$sort: {avg_side_effects:1}}])
