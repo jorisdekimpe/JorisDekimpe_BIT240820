@@ -1,0 +1,12 @@
+UNF PatNO, PatName, Birthdate, PrescriptionNumber, Medicine, Dosage, DocotrNumber, Doctor, Assistant
+1F remove redunant data, single values
+PatNO, PatName, Birthdate, PrescriptionNumber, Medicine, Dosage, DoctorNumber, Doctor, Assistant
+
+2F
+
+all nonkey variables are now only dependent primary key 
+3F PatNO, PatName, Birthdate
+   Prescriptionnumber, Medicin, dosage
+   Doctornumber, Doctor
+   Assitsantnumber, assistant
+   PatNO, Prescriptionnumber, Doctornumber, Assistantnumber 
