@@ -1,0 +1,9 @@
+8) Give the number of medicines taken with a dental gel (GEL;DENTAL). Make sure that your query only shows the name of the drug.
+1
+9)Give the number of medicines that have side effects in more than 12% of cases.
+25 medicins
+10)Give the names of the companies that produce medicines that on average  cause side effects in more than 10% of cases? Sort your results according to decreasing percentage of side effects.
+1 Durata Therapeutics.inc
+2 Watson Pharmaceuticals, inc
+3 galderma Laboratories, L.P.
+11)/
